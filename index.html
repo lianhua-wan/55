@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机选学生系统</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>随机选学生系统</h1>
+        <div class="student-list" id="studentList">
+            <!-- 学生列表将通过JS动态生成 -->
+        </div>
+        <div class="controls">
+            <button id="startBtn">开始</button>
+            <button id="stopBtn" disabled>停止</button>
+        </div>
+        <div class="selected-area">
+            <h2>选中学生</h2>
+            <div id="selectedStudent" class="selected-student">等待选择...</div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
